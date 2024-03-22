@@ -38,6 +38,12 @@ router.post("/search_restaurant", (req, res) => {
   res.json(restaurants);
 });
 
+router.get("/search_restaurant", (req, res) => {
+  const restaurants = readMockData("search_restaurant.json");
+
+  res.json(restaurants);
+});
+
 // POST API endpoint to handle editing data
 router.post("/search_restaurant/edit", (req, res) => {
     const editedData = req.body.editedData;
