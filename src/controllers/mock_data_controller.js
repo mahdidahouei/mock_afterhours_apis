@@ -15,4 +15,18 @@ function readMockData(filename) {
     }
 }
 
-module.exports = { readMockData };
+
+// Function to write JSON data to file
+function writeMockData(filename, data, callback) {
+    const filePath = path.join(__dirname, '..', 'mock_data', filename);
+    fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8', (err) => {
+        if (err) {
+            console.error('Error writing to file:', err);
+            callback(err);
+            return;
+        }
+        callback(null);
+    });
+}
+
+module.exports = { readMockData, writeMockData };
