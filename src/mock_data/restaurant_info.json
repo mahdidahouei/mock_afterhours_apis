@@ -1,0 +1,534 @@
+{
+    "id": 25,
+    "title": "Gauchos",
+    "bill_average_price": 29,
+    "about": "Het vlees van de Gaucho-steak is uitsluitend afkomstig van jonge stierkalveren. die zich dagelijks in alle vrijheid voeden met het malse gras van de Argentijnse pampa’s. Door de juiste vochtigheid. het milde klimaat. de rijke bodem en het uitgestrekte landschap is de pampa ideaal voor het houden van runderen van de hoogste kwaliteit.",
+    "price_rate": 0,
+    "quality_rate": 4.866667,
+    "review_count": 0,
+    "book_count": 207,
+    "address": "Oudegracht aan de Werf 150",
+    "street": "Oudegracht aan de Werf",
+    "number": "150",
+    "postcode": "3511 AZ",
+    "instagram_link": "https://www.instagram.com/gauchos.utrecht/",
+    "website": "www.guachos.com",
+    "mail": "info@gauchos.nl",
+    "city_id": 2,
+    "location_lat": 52.09176,
+    "location_long": 5.11805,
+    "would_go_again_percent": 100,
+    "restaurant_phone": "+31 30 232 8372",
+    "is_restaurant_newly_joined": false,
+    "restaurnt_opening_status": "Active",
+    "is_favorite": false,
+    "profile_view_count": 370,
+    "google_rating": 4.2,
+    "menu_path": "https://demo-api.afthr.com/Storage/menu-data/c7e971aa-52cb-4612-a0be-f916c317fb24_f61a7db3-427e-4c7c-8e1d-8273d5a91c56_c8bbd754-7ff9-46f5-be7d-08fbc14501ba_Bistrocafe-menukaart-april-2023.pdf",
+    "has_parking": false,
+    "restaurant_info": null,
+    "instagram_latest_posts_url_list": null,
+    "restaurant_offers": [
+      {
+        "img_path": "<url_to_icon>",
+        "title": "Laptop workspace"
+      },
+      {
+        "img_path": "<url_to_icon>",
+        "title": "Coffee grabers"
+      },
+      {
+        "img_path": "<url_to_icon>",
+        "title": "On a budget"
+      },
+      {
+        "img_path": "<url_to_icon>",
+        "title": "Business meeting area"
+      },
+      {
+        "img_path": "<url_to_icon>",
+        "title": "Healthy meals"
+      },
+      {
+        "img_path": "<url_to_icon>",
+        "title": "Private seating"
+      }
+    ],
+    "special_offer": {
+      "title": "Student night",
+      "description:": "Get 10% off the pizza menu by showing your student card to the staff.",
+      "price": 29.90,
+      "discount_price": 19.90,
+      "discount_percentage": 30,
+      "conditions": "Only available on Tuesdays, Wednesdays & Thursdays"
+    },
+    "been_to_spot_before": false,
+    "video_url": "<url_to_video>",
+    "menu_item_known_for": "Eggs Benny",
+    "restaurant_type": "hasTimeSlots",
+    "restaurant_image": [
+      {
+        "id": 114,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "img_path": "https://demo-api.afthr.com/Storage/restaurant-img/2c1944e4-5717-449d-8dae-25ebbaef9a66_food.jpg",
+        "position": 0
+      },
+      {
+        "id": 92,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "img_path": "https://api.afthr.com/Storage/restaurant-img/58e9de6c-bb28-40cc-9fdd-19bfe2323a44_1.JPG",
+        "position": 1
+      }
+    ],
+    "restaurant_config": {
+      "id": 8,
+      "restaurant_id": 25,
+      "restaurant": null,
+      "default_capacity": 0,
+      "default_rate": 0,
+      "reminder": 10,
+      "meal_duration": 30,
+      "late_booking": 15,
+      "minimum_guests": 1,
+      "maximum_guests": 5,
+      "modification_windows": 30,
+      "menu_rate_typeid": null,
+      "menu_rate_type": null,
+      "formitable_apikey": null,
+      "formitable_uid": null,
+      "create_date": "2023-02-07T06:42:51.752427+00:00",
+      "update_date": "2024-01-28T11:53:17.705398+00:00"
+    },
+    "restaurant_discount_sections": null,
+    "restaurant_seats": [
+      {
+        "seatsId": 104,
+        "seatTypeId": 7,
+        "seatTypeTitle": "High Top Tables"
+      }
+    ],
+    "food": [
+      {
+        "id": 521,
+        "restaurant_id": 25,
+        "title": "hotdog",
+        "description": "Test discription",
+        "img_path": "https://demo-api.afthr.com/Storage/food-img/bbca90f2-0dc4-4f8f-a9bf-865f96067c9d_6a94f7b6-04c7-4eb4-89e0-45e93d9f0121_food2.jpg",
+        "price": 181,
+        "position": 0,
+        "food_typeid": 1,
+        "food_type": {
+          "id": 1,
+          "title": "Food"
+        },
+        "item_have_discount": true
+      },
+      {
+        "id": 531,
+        "restaurant_id": 25,
+        "title": "Falafel",
+        "description": "Test description",
+        "img_path": "https://demo-api.afthr.com/Storage/food-img/132cf971-f75e-42ca-8c15-d5d1435835ac_b6fa0937-9e58-4ba2-81de-e945f3fcd508_food.jpg",
+        "price": 20.15,
+        "position": 20,
+        "food_typeid": 1,
+        "food_type": {
+          "id": 1,
+          "title": "Food"
+        },
+        "item_have_discount": true
+      },
+      {
+        "id": 530,
+        "restaurant_id": 25,
+        "title": "pizza",
+        "description": "Test2",
+        "img_path": "https://demo-api.afthr.com/Storage/food-img/9d39c5f4-171c-435e-ba53-00043f57abc8_food2.jpg",
+        "price": 12.2,
+        "position": 36,
+        "food_typeid": 1,
+        "food_type": {
+          "id": 1,
+          "title": "Food"
+        },
+        "item_have_discount": true
+      }
+    ],
+    "restaurant_categories": [
+      {
+        "id": 39,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_category_id": 14,
+        "restaurant_Category": null,
+        "create_date": "2023-06-20T11:10:39.192875+00:00",
+        "is_active": true
+      },
+      {
+        "id": 94,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_category_id": 11,
+        "restaurant_Category": null,
+        "create_date": "2023-07-05T15:04:23.664329+00:00",
+        "is_active": false
+      },
+      {
+        "id": 101,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_category_id": 9,
+        "restaurant_Category": null,
+        "create_date": "2023-07-09T17:33:59.082204+00:00",
+        "is_active": true
+      },
+      {
+        "id": 98,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_category_id": 6,
+        "restaurant_Category": null,
+        "create_date": "2023-07-08T07:11:47.315894+00:00",
+        "is_active": false
+      },
+      {
+        "id": 106,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_category_id": 8,
+        "restaurant_Category": null,
+        "create_date": "2023-11-04T12:44:03.274064+00:00",
+        "is_active": true
+      }
+    ],
+    "reservation_feedbacks": [
+      {
+        "id": 71,
+        "user_id": 159,
+        "reservation_id": 1054,
+        "restaurant_id": 25,
+        "will_go_again": true,
+        "point": 5,
+        "comment_ids": "3,1,25,2,22",
+        "create_date": "2023-07-30T12:17:38.952111+00:00",
+        "is_deleted": false,
+        "deleted_date": null,
+        "restaurant_timezone_create_date": "2023-07-30T14:17:38.952111",
+        "full_name": "Mahdi Dahouei",
+        "country_id": 101,
+        "feedback_emoji": "loveit"
+      },
+      {
+        "id": 70,
+        "user_id": 159,
+        "reservation_id": 1022,
+        "restaurant_id": 25,
+        "will_go_again": true,
+        "point": 5,
+        "comment_ids": "26",
+        "create_date": "2023-07-30T12:12:17.298954+00:00",
+        "is_deleted": false,
+        "deleted_date": null,
+        "restaurant_timezone_create_date": "2023-07-30T14:12:17.298954",
+        "full_name": "Mahdi Dahouei",
+        "country_id": 101,
+        "feedback_emoji": "good"
+      },
+      {
+        "id": 69,
+        "user_id": 159,
+        "reservation_id": 1084,
+        "restaurant_id": 25,
+        "will_go_again": true,
+        "point": 4.6,
+        "comment_ids": "21",
+        "create_date": "2023-07-30T12:11:07.497332+00:00",
+        "is_deleted": false,
+        "deleted_date": null,
+        "restaurant_timezone_create_date": "2023-07-30T14:11:07.497332",
+        "full_name": "Mahdi Dahouei",
+        "country_id": 101,
+        "feedback_emoji": "meh"
+      }
+    ],
+    "restaurant_dietaries": null,
+    "restaurant_dresses": [
+      {
+        "id": 7,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_dress_id": 1,
+        "restaurant_dress": null,
+        "create_date": "2023-10-29T09:05:50.011035+00:00"
+      },
+      {
+        "id": 9,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "restaurant_dress_id": 3,
+        "restaurant_dress": null,
+        "create_date": "2023-11-04T13:17:46.183369+00:00"
+      }
+    ],
+    "restaurant_off_dates": null,
+    "restaurant_working_hours": [
+      {
+        "id": 11572,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Monday",
+        "from_time": "10:00:00",
+        "to_time": "22:00:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.418606+00:00",
+        "update_date": null
+      },
+      {
+        "id": 11573,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Sunday",
+        "from_time": "10:00:00",
+        "to_time": "22:00:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.458085+00:00",
+        "update_date": null
+      },
+      {
+        "id": 11574,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Wednesday",
+        "from_time": "10:00:00",
+        "to_time": "22:00:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.462508+00:00",
+        "update_date": null
+      },
+      {
+        "id": 11575,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Saturday",
+        "from_time": "10:00:00",
+        "to_time": "23:00:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.465785+00:00",
+        "update_date": null
+      },
+      {
+        "id": 11576,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Tuesday",
+        "from_time": "10:00:00",
+        "to_time": "22:00:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.546605+00:00",
+        "update_date": null
+      },
+      {
+        "id": 11577,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Thursday",
+        "from_time": "10:00:00",
+        "to_time": "22:30:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.550346+00:00",
+        "update_date": null
+      },
+      {
+        "id": 11578,
+        "restaurant_id": 25,
+        "restaurant": null,
+        "day_name": "Friday",
+        "from_time": "10:00:00",
+        "to_time": "22:00:00",
+        "is_active": true,
+        "is_delete": false,
+        "create_date": "2024-02-20T09:33:59.553225+00:00",
+        "update_date": null
+      }
+    ],
+    "restaurant_cuisine": null,
+    "restaurant_discount_rates": [
+      {
+        "rate": 15
+      },
+      {
+        "rate": 30
+      },
+      {
+        "rate": 40
+      },
+      {
+        "rate": 50
+      }
+    ],
+    "calendar_status": [
+      {
+        "date": "2024-03-22T00:00:00",
+        "day_name": "Friday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-23T00:00:00",
+        "day_name": "Saturday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-24T00:00:00",
+        "day_name": "Sunday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-25T00:00:00",
+        "day_name": "Monday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-26T00:00:00",
+        "day_name": "Tuesday",
+        "restaurant_opening_status": "Inactive"
+      },
+      {
+        "date": "2024-03-27T00:00:00",
+        "day_name": "Wednesday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-28T00:00:00",
+        "day_name": "Thursday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-29T00:00:00",
+        "day_name": "Friday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-30T00:00:00",
+        "day_name": "Saturday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-03-31T00:00:00",
+        "day_name": "Sunday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-01T00:00:00",
+        "day_name": "Monday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-02T00:00:00",
+        "day_name": "Tuesday",
+        "restaurant_opening_status": "Inactive"
+      },
+      {
+        "date": "2024-04-03T00:00:00",
+        "day_name": "Wednesday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-04T00:00:00",
+        "day_name": "Thursday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-05T00:00:00",
+        "day_name": "Friday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-06T00:00:00",
+        "day_name": "Saturday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-07T00:00:00",
+        "day_name": "Sunday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-08T00:00:00",
+        "day_name": "Monday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-09T00:00:00",
+        "day_name": "Tuesday",
+        "restaurant_opening_status": "Inactive"
+      },
+      {
+        "date": "2024-04-10T00:00:00",
+        "day_name": "Wednesday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-11T00:00:00",
+        "day_name": "Thursday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-12T00:00:00",
+        "day_name": "Friday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-13T00:00:00",
+        "day_name": "Saturday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-14T00:00:00",
+        "day_name": "Sunday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-15T00:00:00",
+        "day_name": "Monday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-16T00:00:00",
+        "day_name": "Tuesday",
+        "restaurant_opening_status": "Inactive"
+      },
+      {
+        "date": "2024-04-17T00:00:00",
+        "day_name": "Wednesday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-18T00:00:00",
+        "day_name": "Thursday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-19T00:00:00",
+        "day_name": "Friday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-20T00:00:00",
+        "day_name": "Saturday",
+        "restaurant_opening_status": "Active"
+      },
+      {
+        "date": "2024-04-21T00:00:00",
+        "day_name": "Sunday",
+        "restaurant_opening_status": "Active"
+      }
+    ]
+  }
