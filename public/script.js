@@ -1,35 +1,46 @@
 window.addEventListener('DOMContentLoaded', () => {
+    const mockName = window.location.pathname.split('/')[3];
+
+    // Initialize JSON Editor
+    const container = document.getElementById('jsoneditor');
+    const options = {
+        modes: ['tree', 'text'], // Display modes: tree view and text view
+        onError: function (err) {
+            alert('Syntax Error: ' + err.toString());
+        }
+    };
+    const editor = new JSONEditor(container, options);
+
     // Fetch previous content of JSON file
-    fetch('/api/Global/restaurant_info')
+    fetch(`/api/Global/${mockName}`)
         .then(response => response.json())
         .then(data => {
-            // Populate the text area with previous content
-            document.getElementById('editedData').value = JSON.stringify(data, null, 2);
+            // Set JSON data in the editor
+            editor.set(data);
         })
         .catch(error => {
             console.error('Error fetching data:', error);
             alert('An error occurred while fetching the data.');
         });
-    
+
     // Add event listener to the form submit button
-    document.getElementById('editForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const editedData = document.getElementById('editedData').value;
-        const filename = 'restaurant_info.json'; // Specify the filename here
+    document.getElementById('submitButton').addEventListener('click', function() {
+        const editedData = editor.get(); // Get edited data from the editor
+        const filename = `${mockName}.json`; // Specify the filename here
         const submitButton = document.getElementById('submitButton');
         const loadingIndicator = document.getElementById('loadingIndicator');
-        
+
         // Show loading indicator
         loadingIndicator.classList.remove('hidden');
         submitButton.setAttribute('disabled', true);
 
         // Send edited data to server using AJAX
-        fetch('/api/Global/restaurant_info/edit', {
+        fetch(`/api/Global/${mockName}/edit`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ filename, editedData })
+            body: JSON.stringify({ filename, editedData: JSON.stringify(editedData) })
         })
         .then(response => response.json())
         .then(data => {

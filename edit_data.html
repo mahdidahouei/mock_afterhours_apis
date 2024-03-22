@@ -4,18 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Data</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.1.9/jsoneditor.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        #jsoneditor {
+            height: calc(100vh - 100px);
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        /* Add this CSS to style the submit button */
+    #submitButton {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    #submitButton:hover {
+        background-color: #0056b3;
+    }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Edit Data</h1>
-        <form id="editForm">
-            <label for="editedData">Edited Data:</label><br>
-            <textarea id="editedData" name="editedData"></textarea><br>
-            <button type="submit" id="submitButton">Submit</button>
-            <div id="loadingIndicator" class="hidden"></div>
-        </form>
-    </div>
+    <div id="jsoneditor"></div>
+    <button id="submitButton">Submit</button>
+    <div id="loadingIndicator" class="hidden"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.1.9/jsoneditor.min.js"></script>
     <script src="/script.js"></script>
 </body>
 </html>
