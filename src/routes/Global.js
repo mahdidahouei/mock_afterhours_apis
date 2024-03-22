@@ -32,7 +32,7 @@ router.get("/restaurant_info/edit", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "..", "edit_data.html"));
 });
 
-router.get("/search_restaurant", (req, res) => {
+router.post("/search_restaurant", (req, res) => {
   const restaurants = readMockData("search_restaurant.json");
 
   res.json(restaurants);
