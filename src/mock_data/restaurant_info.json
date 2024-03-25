@@ -65,7 +65,7 @@
   "book_url": "https://abeautifulmess.nl/en/utrecht/",
   "been_to_spot_before": false,
   "video_url": "<url_to_video>",
-  "menu_item_known_for": "Eggs Benny",
+  "known_for": "Eggs Benny",
   "restaurant_type": "hasTimeSlots",
   "restaurant_image": [
     {
