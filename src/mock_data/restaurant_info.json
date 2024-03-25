@@ -28,29 +28,29 @@
   "has_parking": false,
   "restaurant_info": null,
   "instagram_latest_posts_url_list": null,
-  "restaurant_offers": [
+  "tags": [
     {
-      "img_path": "<url_to_icon>",
+      "img_path": "https://cdn.iconscout.com/icon/free/png-256/free-activity-2456671-2036125.png",
       "title": "Laptop workspace"
     },
     {
-      "img_path": "<url_to_icon>",
+      "img_path": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsb2ZmaWNlNl9hX2JsYWNrX3NpbGhvdWV0dGVfc2ltcGxlX2NvZmZlZV9pY29uX2xvZ29faWNvbl84ZDViM2Y1YS1mNzk1LTQ2MTEtYWIxZi0yN2ZiZTViNjRiMjQucG5n.png",
       "title": "Coffee grabers"
     },
     {
-      "img_path": "<url_to_icon>",
+      "img_path": "https://www.svgrepo.com/show/324755/wallet-money-payment.svg",
       "title": "On a budget"
     },
     {
-      "img_path": "<url_to_icon>",
+      "img_path": "https://static.vecteezy.com/system/resources/previews/020/522/383/original/simple-people-icon-icon-of-grouping-of-people-png.png",
       "title": "Business meeting area"
     },
     {
-      "img_path": "<url_to_icon>",
+      "img_path": "https://cdn0.iconfinder.com/data/icons/thin-medicine-health/24/thin-0813_heart_vitals_pulse_rate_health-512.png",
       "title": "Healthy meals"
     },
     {
-      "img_path": "<url_to_icon>",
+      "img_path": "https://static-00.iconduck.com/assets.00/lock-icon-419x512-h1mk7mwx.png",
       "title": "Private seating"
     }
   ],
@@ -62,6 +62,7 @@
     "discount_percentage": 30,
     "conditions": "Only available on Tuesdays, Wednesdays & Thursdays"
   },
+  "book_url": "https://abeautifulmess.nl/en/utrecht/",
   "been_to_spot_before": false,
   "video_url": "<url_to_video>",
   "menu_item_known_for": "Eggs Benny",
