@@ -2152,7 +2152,7 @@
         "title": "Date spot"
       }
     ],
-    "restaurant_type": "hasTimeSlots",
+    "restaurant_type": "walkIn",
     "book_url": "<url-to-book>",
     "restaurant_categories": [
       {
@@ -2206,7 +2206,7 @@
         "title": "Date spot"
       }
     ],
-    "restaurant_type": "hasTimeSlots",
+    "restaurant_type": "takeout",
     "book_url": "<url-to-book>",
     "restaurant_categories": null,
     "restaurant_image": null,
