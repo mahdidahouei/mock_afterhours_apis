@@ -26,6 +26,10 @@
       },
       {
         "title": "Date spot"
+      },
+      {
+        "img_path": "https://www.svgrepo.com/show/324755/wallet-money-payment.svg",
+        "title": "€18"
       }
     ],
     "restaurant_type": "hasTimeSlots",
