@@ -66,7 +66,7 @@
   "special_offer": {
     "img_path": "https://images.socialdeal.de/bedrijf/el-gaucho-original-argentinisches-restaurant-19103115523058.jpg",
     "title": "Student night",
-    "description:": "Get 10% off the pizza menu by showing your student card to the staff.",
+    "description": "Get 10% off the pizza menu by showing your student card to the staff.",
     "price": 29.9,
     "discount_price": 19.9,
     "discount_percentage": 30,
