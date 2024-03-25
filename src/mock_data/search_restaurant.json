@@ -29,7 +29,7 @@
       }
     ],
     "restaurant_type": "hasTimeSlots",
-    "book_url": "<url-to-book>",
+    "book_url": null,
     "restaurant_categories": [
       {
         "category_id": 44
@@ -344,7 +344,7 @@
       }
     ],
     "restaurant_type": "bookOnSite",
-    "book_url": "<url-to-book>",
+    "book_url": "https://www.gauchosgrill.nl/utrecht-oude-gracht",
     "restaurant_categories": [
       {
         "category_id": 39
@@ -933,7 +933,7 @@
       }
     ],
     "restaurant_type": "canNotBook",
-    "book_url": "<url-to-book>",
+    "book_url": null,
     "restaurant_categories": [
       {
         "category_id": 35
@@ -1524,8 +1524,8 @@
     "is_favorite": false,
     "google_rating": 4.5,
     "join_date": "2023-02-08T08:44:08.177+00:00",
-    "restaurant_type": "hasTimeSlots",
-    "book_url": "<url-to-book>",
+    "restaurant_type": "bookOnSite",
+    "book_url": "https://abeautifulmess.nl/en/utrecht/",
     "restaurant_categories": [
       {
         "category_id": 30
@@ -2084,8 +2084,8 @@
         "title": "Date spot"
       }
     ],
-    "restaurant_type": "hasTimeSlots",
-    "book_url": "<url-to-book>",
+    "restaurant_type": "bookOnSite",
+    "book_url": "https://www.brasseriejaffa.nl/",
     "restaurant_categories": [
       {
         "category_id": 114
