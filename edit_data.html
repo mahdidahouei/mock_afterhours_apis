@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edit Data</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.1.9/jsoneditor.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.1.9/jsoneditor.min.css"
+    />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      .jsoneditor-menu {
+        background-color: #ef4164;
+        border-color: #ef4164;
+        color: #ef4164;
+      }
 
-        #jsoneditor {
-            height: calc(100vh - 100px);
-            margin: 20px;
-            border: 1px solid #ef4164;
-            border-radius: 4px;
-        }
-        /* Add this CSS to style the submit button */
-    #submitButton {
+      #jsoneditor {
+        height: calc(100vh - 100px);
+        margin: 20px;
+        border: 5px solid #ef4164;
+        border-color: #ef4164;
+        border-radius: 4px;
+      }
+
+      /* Add this CSS to style the submit button */
+      #submitButton {
         display: block;
         margin: 20px auto;
         padding: 10px 20px;
@@ -30,18 +40,18 @@
         border-radius: 4px;
         cursor: pointer;
         transition: background-color 0.3s;
-    }
+      }
 
-    #submitButton:hover {
+      #submitButton:hover {
         background-color: #93273d;
-    }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="jsoneditor"></div>
     <button id="submitButton">Submit</button>
     <div id="loadingIndicator" class="hidden"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.1.9/jsoneditor.min.js"></script>
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
