@@ -29,6 +29,7 @@
   "restaurant_info": null,
   "city_ranking": "#9",
   "price_range": "€20 - 40",
+  "show_time_slots": false,
   "instagram_posts_count": 247,
   "instagram_latest_posts_url_list": [
     "https://static.wixstatic.com/media/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg/v1/fit/w_2500,h_1330,al_c/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg",
