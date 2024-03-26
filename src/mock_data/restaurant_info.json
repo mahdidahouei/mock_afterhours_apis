@@ -27,6 +27,9 @@
   "menu_path": "https://demo-api.afthr.com/Storage/menu-data/c7e971aa-52cb-4612-a0be-f916c317fb24_f61a7db3-427e-4c7c-8e1d-8273d5a91c56_c8bbd754-7ff9-46f5-be7d-08fbc14501ba_Bistrocafe-menukaart-april-2023.pdf",
   "has_parking": false,
   "restaurant_info": null,
+  "city_ranking": 9,
+  "price_range": "€20 - 40",
+  "instagram_posts_count": 247,
   "instagram_latest_posts_url_list": [
     "https://static.wixstatic.com/media/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg/v1/fit/w_2500,h_1330,al_c/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg",
     "https://www.goingabroad.nl/wp-content/uploads/2022/10/student-job-at-gauchos-in-breda-1-scaled.jpeg",
