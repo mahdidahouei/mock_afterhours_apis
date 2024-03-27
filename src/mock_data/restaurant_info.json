@@ -75,7 +75,6 @@
     "description": "Get 10% off the pizza menu by showing your student card to the staff.",
     "price": 29.9,
     "discount_price": 19.9,
-    "discount_percentage": 30,
     "conditions": "Only available on Tuesdays, Wednesdays & Thursdays"
   },
   "book_url": "https://abeautifulmess.nl/en/utrecht/",
