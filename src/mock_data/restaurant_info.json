@@ -78,10 +78,10 @@
     "conditions": "Only available on Tuesdays, Wednesdays & Thursdays"
   },
   "book_url": "https://abeautifulmess.nl/en/utrecht/",
-  "been_to_spot_before": false,
+  "been_to_spot_before": true,
   "video_url": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-  "video_preview_image_url": "<url_to_video>",
-  "video_aspect_ratio":  1.9,
+  "video_preview_image_url": "https://api.afthr.com/Storage/restaurant-img/58e9de6c-bb28-40cc-9fdd-19bfe2323a44_1.JPG",
+  "video_aspect_ratio":  null,
   "known_for": "Eggs Benny",
   "restaurant_type": "hasTimeSlots",
   "restaurant_image": [
