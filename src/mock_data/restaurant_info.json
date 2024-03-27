@@ -79,7 +79,7 @@
   },
   "book_url": "https://abeautifulmess.nl/en/utrecht/",
   "been_to_spot_before": false,
-  "video_url": "<url_to_video>",
+  "video_url": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
   "video_preview_image_url": "<url_to_video>",
   "video_aspect_ratio":  1.9,
   "known_for": "Eggs Benny",
