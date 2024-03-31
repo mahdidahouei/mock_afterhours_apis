@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
+    const routeName = window.location.pathname.split('/')[2];
     const mockName = window.location.pathname.split('/')[3];
 
     // Initialize JSON Editor
@@ -12,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const editor = new JSONEditor(container, options);
 
     // Fetch previous content of JSON file
-    fetch(`/api/Global/${mockName}`)
+    fetch(`/api/${routeName}/${mockName}`)
         .then(response => response.json())
         .then(data => {
             // Set JSON data in the editor
@@ -35,7 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
         submitButton.setAttribute('disabled', true);
 
         // Send edited data to server using AJAX
-        fetch(`/api/Global/${mockName}/edit`, {
+        fetch(`/api/${routeName}/${mockName}/edit`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

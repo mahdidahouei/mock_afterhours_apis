@@ -1,0 +1,9 @@
+{
+    "title": "Popular spots in town",
+    "img_url": "string",
+    "sort_methods": [
+        "mostVoted",
+        "highestRated"
+    ],
+    "monthly_ranking_count": 4200
+}

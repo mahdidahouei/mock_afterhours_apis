@@ -1,0 +1,9 @@
+{
+  "title": "string",
+  "sort_list": "mostVoted",
+  "min_discount_range": 0,
+  "max_discount_range": 0,
+  "page": 0,
+  "pagesize": 0,
+  "cityId": 0
+}

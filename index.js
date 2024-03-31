@@ -6,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const globalRoutes = require('./src/routes/Global');
+const memberRoutes = require('./src/routes/Member');
 
 
 // Middleware to parse JSON bodies
@@ -15,6 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use('/api/Global', globalRoutes);
+app.use('/api/Member', memberRoutes);
 
 
 app.listen(PORT, () => {

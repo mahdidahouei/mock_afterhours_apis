@@ -1,0 +1,22 @@
+[
+  {
+    "restaurant_id": 0,
+    "img_path": "string",
+    "title": "string",
+    "description": "string",
+    "vote": "upVote",
+    "votes_count": 98,
+    "ranking_count": 2400,
+    "trailing_icon_path": "string"
+  },
+  {
+    "restaurant_id": 0,
+    "img_path": "string",
+    "title": "string",
+    "description": "string",
+    "vote": "noVote",
+    "votes_count": 98,
+    "ranking_count": 2400,
+    "trailing_icon_path": "string"
+  }
+]
