@@ -1,22 +1,46 @@
 [
   {
-    "restaurant_id": 0,
-    "img_path": "string",
-    "title": "string",
-    "description": "string",
+    "restaurant_id": 30,
+    "img_path": "https://www.goingabroad.nl/wp-content/uploads/2022/10/student-job-at-gauchos-in-breda-1-scaled.jpeg",
+    "title": "01 Teds All Day Brunch",
+    "description": "Oudegracht, Modern European",
     "vote": "upVote",
     "votes_count": 98,
+    "rating": 5.0,
     "ranking_count": 2400,
-    "trailing_icon_path": "string"
+    "trailing_icon_path": "https://png.pngtree.com/png-clipart/20231024/original/pngtree-princess-crown-icon-vector-photo-png-image_13413917.png"
   },
   {
-    "restaurant_id": 0,
-    "img_path": "string",
-    "title": "string",
-    "description": "string",
+    "restaurant_id": 25,
+    "img_path": "https://static.wixstatic.com/media/17f7b0_cff4209927d549f4873e7dcb8b3c22e3~mv2.jpeg/v1/fill/w_640,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17f7b0_cff4209927d549f4873e7dcb8b3c22e3~mv2.jpeg",
+    "title": "02 Ruby Rose",
+    "description": "Janskerkhof, Cocktail bar",
     "vote": "noVote",
-    "votes_count": 98,
-    "ranking_count": 2400,
-    "trailing_icon_path": "string"
+    "votes_count": 69,
+    "rating": 4.9,
+    "ranking_count": 1200,
+    "trailing_icon_path": null
+  },
+  {
+    "restaurant_id": 31,
+    "img_path": "https://images.socialdeal.de/bedrijf/el-gaucho-original-argentinisches-restaurant-19103115523058.jpg",
+    "title": "03 The Streetfood Club",
+    "description": "Janskerkhof, Mediterranean",
+    "vote": "downVote",
+    "votes_count": null,
+    "rating": 4.8,
+    "ranking_count": 802,
+    "trailing_icon_path": null
+  },
+  {
+    "restaurant_id": 27,
+    "img_path": "https://storage.googleapis.com/prodhgv234hv/picture/image/5865/large_e562d16aea.jpg",
+    "title": "04 Markethal",
+    "description": "Binnenstad, International variety",
+    "vote": "noVote",
+    "votes_count": null,
+    "rating": 4.9,
+    "ranking_count": 416,
+    "trailing_icon_path": null
   }
 ]
