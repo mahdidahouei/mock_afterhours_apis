@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-tile {
+    background-color: #fff;
+    border-radius: 24px;
+    border: 1px solid #ef4164;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .list-tile-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .list-tile-subtitle {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Style for Global API list tiles */
+  .global-list-tile {
+    background-color: #fff; /* Light blue background */
+  }
+  
+  /* Style for Member API list tiles */
+  .member-list-tile {
+    background-color: #fff; /* Light green background */
+  }
+  
