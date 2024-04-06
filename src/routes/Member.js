@@ -29,8 +29,7 @@ router.get("/available_votes/edit", (req, res) => {
 });
 
 router.post("/been_to_restaurant", (req, res) => {
-  res.status(500).json({ message: "failed" })
-  // res.json({ message: "success" });
+  res.json({ message: "success" });
 });
 
 router.get("/been_to_restaurant", (req, res) => {
