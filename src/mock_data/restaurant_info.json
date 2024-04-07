@@ -225,31 +225,25 @@
   "reservation_feedbacks": [
     {
       "id": 73,
-      "will_go_again": false,
-      "point": 4.2,
-      "comment_ids": "7",
+      "point": 4.8,
       "text": "Lorem 1 1 ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
       "create_date": "2023-12-20T13:25:32.583748+00:00",
       "restaurant_timezone_create_date": "2023-12-20T14:25:32.583748",
       "full_name": "Mahdi Dahouei",
-      "feedback_emoji": "meh"
+      "feedback_emoji": "loveit"
     },
     {
       "id": 73,
-      "will_go_again": false,
-      "point": 4.2,
-      "comment_ids": "7",
+      "point": 3.4,
       "text": "Lorem 2 2 ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
       "create_date": "2023-12-20T13:25:32.583748+00:00",
       "restaurant_timezone_create_date": "2023-12-20T14:25:32.583748",
       "full_name": "Mahdi Dahouei",
-      "feedback_emoji": "meh"
+      "feedback_emoji": "good"
     },
     {
       "id": 73,
-      "will_go_again": false,
-      "point": 4.2,
-      "comment_ids": "7",
+      "point": 2.7,
       "text": "Lorem 3 3 ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
       "create_date": "2023-12-20T13:25:32.583748+00:00",
       "restaurant_timezone_create_date": "2023-12-20T14:25:32.583748",
