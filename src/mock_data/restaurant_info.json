@@ -82,7 +82,7 @@
   "video_url": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
   "video_preview_image_url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/04/19/3049255cf1a84035925d9d09f56d560e_Fleischlieber_Hamburg_Heritage.jpg",
   "video_aspect_ratio": null,
-  "known_for": "Eggs Benny",
+  "menu_item_known_for": "Eggs Benny",
   "comments_count": 196,
   "restaurant_type": "hasTimeSlots",
   "restaurant_image": [
