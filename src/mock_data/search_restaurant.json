@@ -36,10 +36,10 @@
     "book_url": null,
     "restaurant_categories": [
       {
-        "category_id": 44
+        "category_id": 0
       },
       {
-        "category_id": 45
+        "category_id": 2
       }
     ],
     "restaurant_image": [
@@ -351,7 +351,7 @@
     "book_url": "https://www.gauchosgrill.nl/utrecht-oude-gracht",
     "restaurant_categories": [
       {
-        "category_id": 39
+        "category_id": 2
       },
       {
         "category_id": 101
@@ -940,7 +940,7 @@
     "book_url": null,
     "restaurant_categories": [
       {
-        "category_id": 35
+        "category_id": 1
       },
       {
         "category_id": 47
@@ -1532,7 +1532,7 @@
     "book_url": "https://abeautifulmess.nl/en/utrecht/",
     "restaurant_categories": [
       {
-        "category_id": 30
+        "category_id": 2
       }
     ],
     "restaurant_image": [
@@ -2096,7 +2096,7 @@
     "book_url": "https://www.brasseriejaffa.nl/",
     "restaurant_categories": [
       {
-        "category_id": 114
+        "category_id": 0
       },
       {
         "category_id": 115
@@ -2156,7 +2156,7 @@
     "book_url": "<url-to-book>",
     "restaurant_categories": [
       {
-        "category_id": 103
+        "category_id": 1
       }
     ],
     "restaurant_image": [
@@ -2245,10 +2245,10 @@
     "book_url": "<url-to-book>",
     "restaurant_categories": [
       {
-        "category_id": 112
+        "category_id": 0
       },
       {
-        "category_id": 113
+        "category_id": 1
       }
     ],
     "restaurant_image": null,
