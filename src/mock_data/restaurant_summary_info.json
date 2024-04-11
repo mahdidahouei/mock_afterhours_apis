@@ -8,14 +8,14 @@
   },
   {
     "category_id": 1,
-    "category_title": "Michelin",
+    "category_title": "Under €20",
     "restaurant_count": 3,
     "category_img": "https://i.ibb.co/ZTDL5cG/d0186bcb620b.png",
     "max_discount": 40.0
   },
   {
     "category_id": 2,
-    "category_title": "Under €20",
+    "category_title": "Michelin",
     "restaurant_count": 3,
     "category_img": "https://i.ibb.co/tz59ndV/e71595fed3cd.png",
     "max_discount": 40.0
