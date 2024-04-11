@@ -24,7 +24,10 @@
   "is_favorite": false,
   "profile_view_count": 370,
   "google_rating": 4.2,
-  "menu_path": "https://demo-api.afthr.com/Storage/menu-data/c7e971aa-52cb-4612-a0be-f916c317fb24_f61a7db3-427e-4c7c-8e1d-8273d5a91c56_c8bbd754-7ff9-46f5-be7d-08fbc14501ba_Bistrocafe-menukaart-april-2023.pdf",
+  "menus": [
+    "https://demo-api.afthr.com/Storage/menu-data/c7e971aa-52cb-4612-a0be-f916c317fb24_f61a7db3-427e-4c7c-8e1d-8273d5a91c56_c8bbd754-7ff9-46f5-be7d-08fbc14501ba_Bistrocafe-menukaart-april-2023.pdf",
+    "https://google.com"
+  ],
   "has_parking": false,
   "restaurant_info": null,
   "city_ranking": "#9",
