@@ -1,5 +1,6 @@
 // Define the list of APIs
 const globalApis = [
+    { name: 'Categories', path: '/api/Global/restaurant_summary_info' },
     { name: 'Search Restaurant', path: '/api/Global/search_restaurant' },
     { name: 'Restaurant Info', path: '/api/Global/restaurant_info' },
     { name: 'Search Ranking', path: '/api/Global/search_ranking' },

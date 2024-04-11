@@ -7,6 +7,27 @@ const {
   writeMockData,
 } = require("../controllers/mock_data_controller");
 
+router.get("/restaurant_summary_info", (req, res) => {
+  const restaurantInfo = readMockData("restaurant_summary_info.json");
+
+  res.json(restaurantInfo);
+});
+
+// POST API endpoint to handle editing data
+router.post("/restaurant_summary_info/edit", (req, res) => {
+  const message = writeMockData("restaurant_summary_info.json", req.body.editedData);
+  if (message) {
+    res.status(500).json({ message });
+  } else {
+    res.json({ message: "Changes saved successfully." });
+  }
+});
+
+// Serve the edit_data.html file
+router.get("/restaurant_summary_info/edit", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "..", "edit_data.html"));
+});
+
 router.get("/restaurant_info", (req, res) => {
   const restaurantInfo = readMockData("restaurant_info.json");
 

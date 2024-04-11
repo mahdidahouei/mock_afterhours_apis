@@ -1,0 +1,23 @@
+[
+  {
+    "category_id": 0,
+    "category_title": "Vitamin D",
+    "restaurant_count": 3,
+    "category_img": "https://i.ibb.co/Wt7V4yP/70618d747ec6.png",
+    "maxDiscount": 40.0
+  },
+  {
+    "category_id": 0,
+    "category_title": "Michelin",
+    "restaurant_count": 3,
+    "category_img": "https://i.ibb.co/ZTDL5cG/d0186bcb620b.png",
+    "maxDiscount": 40.0
+  },
+  {
+    "category_id": 0,
+    "category_title": "Under €20",
+    "restaurant_count": 3,
+    "category_img": "https://i.ibb.co/tz59ndV/e71595fed3cd.png",
+    "maxDiscount": 40.0
+  }
+]
