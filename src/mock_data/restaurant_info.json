@@ -42,18 +42,6 @@
   "price_range": "€20 - 40",
   "show_time_slots": false,
   "instagram_posts_count": 247,
-  "instagram_latest_posts_url_list": [
-    "https://static.wixstatic.com/media/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg/v1/fit/w_2500,h_1330,al_c/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg",
-    "https://www.goingabroad.nl/wp-content/uploads/2022/10/student-job-at-gauchos-in-breda-1-scaled.jpeg",
-    "https://c8.alamy.com/compde/2jwcaey/blick-auf-den-hofkeller-im-gebaude-oudegracht-150-steak-restaurant-los-gauchos-in-utrecht-2jwcaey.jpg",
-    "https://static.wixstatic.com/media/17f7b0_cff4209927d549f4873e7dcb8b3c22e3~mv2.jpeg/v1/fill/w_640,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17f7b0_cff4209927d549f4873e7dcb8b3c22e3~mv2.jpeg",
-    "https://images.socialdeal.de/bedrijf/el-gaucho-original-argentinisches-restaurant-19103115523058.jpg",
-    "https://media.heerlijk.nl/restaurant/10612/1641804897_1.jpg",
-    "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/04/19/3049255cf1a84035925d9d09f56d560e_Fleischlieber_Hamburg_Heritage.jpg",
-    "https://www.goingabroad.nl/wp-content/uploads/2022/04/student-job-in-amsterdam.jpeg",
-    "https://storage.googleapis.com/prodhgv234hv/picture/image/5865/large_e562d16aea.jpg",
-    "https://watervakantie.nl/wp-content/uploads/gauchos_aan_de_gracht.jpg"
-  ],
   "tags": [
     {
       "img_path": "https://cdn.iconscout.com/icon/free/png-256/free-activity-2456671-2036125.png",
@@ -90,7 +78,7 @@
   },
   "book_url": "https://abeautifulmess.nl/en/utrecht/",
   "been_to_spot_before": true,
-  "video_url": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
   "video_preview_image_url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/04/19/3049255cf1a84035925d9d09f56d560e_Fleischlieber_Hamburg_Heritage.jpg",
   "video_aspect_ratio": null,
   "menu_item_known_for": "Eggs Benny",
@@ -101,16 +89,35 @@
       "id": 114,
       "restaurant_id": 25,
       "restaurant": null,
-      "img_path": "https://demo-api.afthr.com/Storage/restaurant-img/2c1944e4-5717-449d-8dae-25ebbaef9a66_food.jpg",
+      "img_path": "https://images.socialdeal.de/bedrijf/el-gaucho-original-argentinisches-restaurant-19103115523058.jpg",
       "position": 0
     },
     {
       "id": 92,
       "restaurant_id": 25,
       "restaurant": null,
-      "img_path": "https://api.afthr.com/Storage/restaurant-img/58e9de6c-bb28-40cc-9fdd-19bfe2323a44_1.JPG",
+      "img_path": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/04/19/3049255cf1a84035925d9d09f56d560e_Fleischlieber_Hamburg_Heritage.jpg",
+      "position": 1
+    },
+    {
+      "id": 92,
+      "restaurant_id": 25,
+      "restaurant": null,
+      "img_path": "https://c8.alamy.com/compde/2jwcaey/blick-auf-den-hofkeller-im-gebaude-oudegracht-150-steak-restaurant-los-gauchos-in-utrecht-2jwcaey.jpg",
       "position": 1
     }
+  ],
+  "instagram_latest_posts_url_list": [
+    "https://static.wixstatic.com/media/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg/v1/fit/w_2500,h_1330,al_c/17f7b0_cac8191ebcc3451fa5ab42237b75a815~mv2.jpeg",
+    "https://www.goingabroad.nl/wp-content/uploads/2022/10/student-job-at-gauchos-in-breda-1-scaled.jpeg",
+    "https://c8.alamy.com/compde/2jwcaey/blick-auf-den-hofkeller-im-gebaude-oudegracht-150-steak-restaurant-los-gauchos-in-utrecht-2jwcaey.jpg",
+    "https://static.wixstatic.com/media/17f7b0_cff4209927d549f4873e7dcb8b3c22e3~mv2.jpeg/v1/fill/w_640,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17f7b0_cff4209927d549f4873e7dcb8b3c22e3~mv2.jpeg",
+    "https://images.socialdeal.de/bedrijf/el-gaucho-original-argentinisches-restaurant-19103115523058.jpg",
+    "https://media.heerlijk.nl/restaurant/10612/1641804897_1.jpg",
+    "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/04/19/3049255cf1a84035925d9d09f56d560e_Fleischlieber_Hamburg_Heritage.jpg",
+    "https://www.goingabroad.nl/wp-content/uploads/2022/04/student-job-in-amsterdam.jpeg",
+    "https://storage.googleapis.com/prodhgv234hv/picture/image/5865/large_e562d16aea.jpg",
+    "https://watervakantie.nl/wp-content/uploads/gauchos_aan_de_gracht.jpg"
   ],
   "restaurant_config": {
     "id": 8,

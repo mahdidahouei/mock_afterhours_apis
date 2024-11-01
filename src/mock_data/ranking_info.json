@@ -2,8 +2,14 @@
     "title": "Popular spots in town",
     "img_url": "https://cdn.enjoytravel.com/img/travel-news/iran-the-azadi-tower-tehran.jpg",
     "sort_methods": [
-        "mostVoted",
-        "highestRated"
+        {
+            "title": "Most voted",
+            "value": "most_voted"
+        },
+        {
+            "title": "Highest rated",
+            "value": "highest_rated"
+        }
     ],
     "monthly_ranking_count": 4200
 }
